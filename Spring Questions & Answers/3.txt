@@ -1,0 +1,6 @@
+Q. What is meant by Inversion Of Control in spring ?
+	Inversion Of Control (IOC) is a principle in software engineering where the flow of control of a 
+system is inverted in comparison to traditional control flow. In the context of the Spring framework, 
+IoC refers to the framework's way of managing the lifecycle of components and their dependencies.
+	Spring IoC provides this IoC support through dependency injection, enabling developers to focus
+on writing the business logic of their applications.

@@ -1,1 +1,5 @@
 1. What is the Spring framework ?
+2. What is Spring MVC ?
+3. What is meant by Inversion of Control in spring ?
+4. What is dependency injection in spring ?
+5. What is Spring Initializer ?

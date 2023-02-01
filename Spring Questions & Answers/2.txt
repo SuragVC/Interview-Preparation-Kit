@@ -1,0 +1,6 @@
+Q. What is Spring MVC ?
+	Spring MVC is a Model-View-Controller (MVC) framework for building web applications. It is part of 
+the larger Spring Framework, an open-source application framework for Java. Spring MVC provides a 
+standardized way of defining the flow of an application and its components, including the model (data), view
+(presentation), and controller (business logic). This architecture allows for a separation of concerns, making
+it easier to maintain and test the application.

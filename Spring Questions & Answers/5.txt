@@ -1,0 +1,4 @@
+Q. What is Spring Initializer ?
+	Spring Initializer is a web application that is used to create an initial Spring Boot project structure and provides 
+Maven or Gradle build file to build the code. It solves one of the biggest problems of starting a spring boot application from
+scratch.

@@ -1,0 +1,5 @@
+Q. What is Dependency Injection ?
+	Dependency Injection (DI) is a design pattern in the spring framework where the objects are given their 
+dependencies at creation time by some external entity rather than having created or looking for dependent objects
+themselves. This process is handled by the Spring IoC container which uses DI to manage components and their 
+dependencies to achieve loose coupling between objects. 
