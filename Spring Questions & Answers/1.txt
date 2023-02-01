@@ -1,0 +1,8 @@
+Q. What is the Spring framework?
+	Spring framework is an open-source framework that is used to build Java-based applications. 
+It provides the solution for the most common challenges faced by developers such as 
+	- Dependency Injection : simplifies the management of object relationships and dependencies.
+	- Aspect Oriented Programming (AOP) : enables separation of cross-cutting concerns, such as 
+	  transaction management, security, and logging, from the business logic.
+	- Data Access : supports both traditional RDBMS and NoSQL databases.
+	- Web development : supports the development of web applications, including RESTful web services.
