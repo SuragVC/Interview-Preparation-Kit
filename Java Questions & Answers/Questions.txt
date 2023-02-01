@@ -1,0 +1,10 @@
+1. What is Java ?
+2. What is JDK ?
+3. What is JRE ?
+4. What is JVM ?
+5. What is the flow of a Java application execution ? 
+6. What is class loader ?
+7. What is Just in Time compiler ?
+8. What is Garbage collection in Java ? When it will be executed ?
+9. What is Java compiler ?
+10. Describe the memory management in Java ?

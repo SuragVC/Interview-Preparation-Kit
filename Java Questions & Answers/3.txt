@@ -1,0 +1,7 @@
+Q. What is JRE?
+	JRE stands for Java Runtime Environment. It is a part of the Java Development Kit that contains the tools
+for running Java applications. It provides the Java Virtual Machine(JVM) and the libraries necessary for executing
+Java code. It is mainly used for running Java applications and applets and can be installed on a variety of platforms,
+including Windows, macOS, and Linux. JRE is required to be installed on a computer to run a Java application.
+The difference between JDK and JRE is JDK is used for developing a Java application JRE is used for running an
+Java application. In other words, JDK is used by the developers JRE is used by consumers.

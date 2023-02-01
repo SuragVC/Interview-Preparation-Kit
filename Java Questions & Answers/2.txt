@@ -1,0 +1,6 @@
+Q. What is JDK?
+	JDK is an acronym for Java Development Kit. Which is a software development kit developed
+by Oracle Corporation to develop applications in Java. It consists of Java Runtime Environment as well as
+compilers and tools for developing Java applications such as Java compiler( javac), the java archiver 
+(jar), the Java documentation generator (Javadoc), and others. JDK is the foundation for the development 
+of Java-Based software.

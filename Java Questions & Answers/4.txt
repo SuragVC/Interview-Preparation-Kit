@@ -1,0 +1,11 @@
+Q, What is JVM?
+	JVM stands for Java Virtual Machine. JVM is responsible for converting bytecode into machine language and
+executing Java programs. It provides a runtime environment for executing Java applications that includes memory management,
+garbage collection, and security features. JVM is also responsible for enforcing Java's access restrictions,
+managing the class loading process, and providing a secure environment for executing Java code to run on a variety
+of platforms without modification. The JVM is an essential component of the Java ecosystem and is critical for the
+"Write once, run anywhere" (WORA) capability of the Java programming language.
+	The difference between JRE and JVM is JRE consists of core classes, libraries, and JVM to 
+execute bytecode JVM is converting bytecode into machine language and executing the Java 
+application. In other words, JVM is a run-time engine that calls the main method present in a java code and 
+executes the bytecode. JRE consists of JVM and other classes and binaries that help in executing the program. 

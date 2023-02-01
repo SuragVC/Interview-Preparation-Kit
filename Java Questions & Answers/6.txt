@@ -1,0 +1,5 @@
+Q. What is class loader?
+	The class loader is a component that is present on the JVM. It is responsible for loading Java classes
+into the JVM's memory during runtime as needed by the program. Class loading is an important aspect of
+Java's Security model, as it allows the JVM to separate and manage the class loaded by different parts of the
+program, preventing malicious code from interfering with other parts of the system.

@@ -1,0 +1,7 @@
+Q. Describe the memory management in Java?
+	In Java, there are 5 types of memory used by the Java Virtual Machine(JVM) they are 
+		1, Heap memory : where objects are stored and allocating memory for new objects.
+		2. Stack memory : where the method calls information and local variable is stored.
+		3. Method Area : where class-level data such as constant pool and method data are stored.
+		4. Native method stack : where native method information is stored.
+		5. Metaspace : where metadata information of class and method objects are stored.

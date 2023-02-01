@@ -1,0 +1,9 @@
+Q. What is Garbage collection in Java? When it will be executed?
+	The garbage collector is a mechanism that is responsible for automatically freeing up
+memory occupied by objects that are no longer in use by the program. That helps to prevent 
+memory leaks and improve performance.
+	The exact timing of garbage collection execution in Java is determined by the JVM and
+is dependent on various factors, such as the amount of memory being performed. The JVM 
+periodically checks which objects are no longer being used and reclaim the memory occupied 
+by those objects. The programmer can explicitly execute the garbage collector using System.gc().
+But it won't guarantee the execution of the garbage collector.

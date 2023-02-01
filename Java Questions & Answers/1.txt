@@ -1,0 +1,6 @@
+Q. What is Java?
+	Java is a high-level object-oriented programming language used for developing software
+and applications. It was originally developed by James Gosling at Sun Microsystems and released 
+in 1995. Java is known for its "Write once, run anywhere" (WORA) property, meaning code can
+be written on one platform and run on any device with a Java Virtual Machine (JVM) installed. 
+It is widely used for developing desktop, web, mobile, and enterprise applications.

@@ -1,0 +1,5 @@
+Q. What is a Just in Time compiler?
+	JIT is a component of JRE that improves the performance fo Java applications at run time by compiling 
+bytecodes into native machine code. The JIT compiler compiles the bytecodes of a method during run time when
+it is called and then caches the compiled code for future calls. This allows for faster execution of code than
+would be possible if each time the code was interpreted.

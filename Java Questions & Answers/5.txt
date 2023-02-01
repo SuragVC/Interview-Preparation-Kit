@@ -1,0 +1,13 @@
+Q. What is the flow of a Java application execution? 
+	 Java code execution goes like this:
+	1. The Java source code is written and saved with a .java extension.
+	2. The source code is then compiled using the Java Compiler (javac), which converts the code into
+	    bytecode, a machine-readable format, and saves it in a .class file.
+	3. The bytecode is executed by the Java  Virtual Machine (JVM) which is platform-independent and 
+	    converts the bytecode into machine code that can be executed on the target machine.
+	4. The JVM loads the class file, verifies the bytecode, and allocates memory for the program.
+	5. The JVM will call the main method and executes the main method of the program, which is the
+	    entry point for the code execution.
+	6. The JVM executes the code line by line, executing any methods or statements as necessary.
+	7. The JVM continues to execute the code until it reaches the end of the main method or encounters 
+	    an error, at which point it terminates the program.

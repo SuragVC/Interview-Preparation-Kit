@@ -1,0 +1,4 @@
+Q. What is Java compiler ?
+	Java compiler is an component available on JDK. Which is responsible for converting Java code
+into bytecode.
+	
