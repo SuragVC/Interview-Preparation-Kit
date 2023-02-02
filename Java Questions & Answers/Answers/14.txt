@@ -1,0 +1,3 @@
+Q. What is Abstraction ?
+	Abstraction means hiding the implemention details from the user and showing only the relevent details 
+to the user. 

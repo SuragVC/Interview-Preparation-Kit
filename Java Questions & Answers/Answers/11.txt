@@ -1,0 +1,9 @@
+Q. What is OOP's principle?
+	OOP stands for Object Oriented Programming, It is based on the concepts of "objects", which can contain data and code
+that manipulates that data, representing real-world entities. OOP provides a way to structure code into reusable objects that can
+interact with one another through methods and properties, helping to organize code and make it easier to maintain and scale.
+	There are mainly four principles in OOP's concept they are:
+	1. Abstraction
+	2. Polymorphism
+	3. Encapsulation
+	4. Inheritance

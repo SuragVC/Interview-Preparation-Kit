@@ -1,0 +1,10 @@
+Q. What is Polymorphism ?
+	Polymorphism is part of OOPs. An object behaving differently in different situations is called polymorphism. 
+There are two types of polymorphism, static polymorphism, and dynamic polymorphism.
+	Static polymorphism also known as compile-time polymorphism can be achieved through method overloading.
+Method overloading means a method with the same name but a different parameter or multiple parameters 
+implemented in the same class.
+	Dynamic polymorphism also known as runtime polymorphism can be achieved through method overriding.
+Method overriding means overriding the methods available in the parent class on the child class.
+	Polymorphism can be also achieved through interfaces. Implementing an interface in multiple classes 
+and providing a different signature for methods.

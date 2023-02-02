@@ -1,0 +1,5 @@
+Q. What is Encapsulation ?
+	Encapsulation is the mechanism of wrapping data and code within a single unit, called an object, in 
+object-oriented programming. It provides a secure mechanism for hiding the data and behavior of an object,
+making the object's internal state accessible to the outside world, while exposing a well-defined interface 
+that allows the outside world to interact with the object in a controlled manner.

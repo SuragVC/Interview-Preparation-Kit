@@ -1,0 +1,4 @@
+Q. What is Inheritance ?
+	Inheritance is a principle of object-oriented programming in which a class derives properties and characteristics
+from another class. It is used to establish relationships between classes and reuse code and speed up development. 
+In Java inheritance is achieved through the "extends" keyword.

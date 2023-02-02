@@ -8,3 +8,8 @@
 8. What is Garbage collection in Java ? When it will be executed ?
 9. What is Java compiler ?
 10. Describe the memory management in Java ?
+11. What is OOP's principle ?
+12. What is Inheritance ?
+13. What is Polymorphism ?
+14. What is Abstraction ?
+15. What is Encapsulation ?
