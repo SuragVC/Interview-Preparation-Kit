@@ -3,3 +3,7 @@
 3. What is meant by Inversion of Control in spring ?
 4. What is dependency injection in spring ?
 5. What is Spring Initializer ?
+6. Why we should avoid spring framework ?
+7. How springboot works internally ?
+8. What is springboot starter ?
+9. What are the major starter dependencies of springboot application ?

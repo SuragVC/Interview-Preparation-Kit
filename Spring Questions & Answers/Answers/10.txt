@@ -1,0 +1,11 @@
+Q. Can you disable particular auto-confiquration in spring boot? Explain how ?
+	Yes, We can do that by using exclude attribute of @EnableAutoConfiguration
+eg:	@Configuration
+   	@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
+	public class CustomConfiguration{}
+
+	In a springboot application, we can use exclude attribute of @SpringBootApplication annotation
+eg:	@SpringBootApplication(exclude=DataSourceAutoConfiguration.class)
+	public class CustomApplication{}
+	
+	Using exclude attribute we can specify that that class will not be part of auto-configuration.

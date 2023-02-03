@@ -1,0 +1,13 @@
+Q. What are the major starter dependencies of springboot application ?
+	There are many starter dependencies available on the spring boot application.
+Some of them are
+	spring-boot-starter-parent : It provides default configurations for our application and complete
+				        dependency tree to quickly build our springboot project.
+	spring-boot-starter-web : The starter of Spring web uses Spring MVC. Rest and Tomcat as a default 
+			               embedded server.
+	spring-boot-starter-security : If Spring Security is on the classpath, Spring Boot automatically secures all HTTP 
+				          endpoints with "basic" authentication.
+	spring-boot-starter-test : It is the primary dependency for the test. It contains the majority of elements 
+				    required for our tests.
+	spring-boot -starter-actuator : The actuator is mainly used to expose operational information about the running
+					application.

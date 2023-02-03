@@ -1,0 +1,7 @@
+Q. How springboot works internally ?
+	The entry point of a spring-boot application is a class that contains @SpringBootApplication annotation
+and has the main method. @SpringBootApplication annotation is a combination of three annotations.
+@ComponentScan is used to scan all the components available on the application.
+@EnableAutoConfiguration and @Configuration annotations the springboot application configures the springboot 
+application automatically.
+Springboot follows the naming convention for dependencies like spring-boot-starter.

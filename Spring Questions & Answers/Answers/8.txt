@@ -1,0 +1,5 @@
+Q. What is a Springboot starter ?
+	Springboot starter comprises templates that provide rapid application development, spring boot
+the starter contains a combination of all the relevant transitive dependencies.
+	In other words, spring-boot stater is a jar file that predominantly solves the auto-dependency resolution
+in a spring-boot application.
