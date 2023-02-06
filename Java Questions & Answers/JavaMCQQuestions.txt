@@ -1,0 +1,285 @@
+ //Q1
+  public static void main(String[] args) {
+          char[] arr = {'x','y','z'};
+          String n = new String(arr);
+          System.out.println(n);
+      }
+ A. Runtime Error
+ B. Compile Error
+ C. xyz
+
+ //Q2
+   public static void main(String[] args) {
+           int x = 5;
+           {
+               int y = 6;
+               System.out.println(x+" "+y);
+           }
+           System.out.println(x+" "+y);
+       }
+
+ A. Compile Error
+ B. 5 6
+ C. 5 6 5 6
+
+ //Q3
+    public static void main(String[] args) {
+            int[] arr = {1,2,3,4};
+            int sum=0;
+            for(int i=0;1;i++){
+                sum=sum+arr[i];
+            }
+            System.out.println(sum);
+        }
+ A. Compile Error
+ B. 10
+ C. 11
+
+ //Q4
+ public static void main(String[] args) {
+        int x = 5;
+        x--;
+        ++x;
+        System.out.println(x--);
+    }
+  A. 5
+  B. 6
+  C. 4
+  //Q5
+  public static void main(String[] args) {
+          int x = 10;
+          int y = 20;
+          System.out.println(x+y+"Added"+x+y);
+      }
+  A. 1020Added1020
+  B. 30Added1020
+  C. 1020Added30
+  //Q6
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 20;
+        System.out.println(x+y+"Added"+x*y);
+    }
+   A. 1020Added1020
+   B. 30Added1020
+   C. 30Added200
+ //Q7
+   public static void main(String[] args) {
+           int x = 10;
+           int y = 20;
+           System.out.println(x*y+"Added"+x*y);
+       }
+    A. 30Added1020
+    B. 200Added200
+    C. Compile Error
+  //Q8
+    public static void main(String[] args) {
+            int x = 10;
+            int y = 20;
+            System.out.println(x-y+"Added"+x-y);
+        }
+       A. 10Added1020
+       B. 10Added10
+       C. Compile Error
+  //Q9
+    public static void main(String[] args) {
+            int x = 10;
+            int y = 20;
+            System.out.println((x<y)?true:false);
+        }
+      A. true
+      B. false
+      C. Compile Error
+  //Q10
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 20;
+        System.out.println(x<y?"true":"false");
+    }
+    A. true
+    B. false
+    C. Compile Error
+ //Q11
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 20;
+        String ans=x<y?"true":"false";
+        System.out.println(ans);
+    }
+    A. true
+    B. false
+    C. Compile Error
+  //Q12
+    public static void main(String[] args) {
+        System.out.println(ansFunciton());
+    }
+    int ansFunciton(){
+        return 10;
+    }
+     A. 10
+     B. Runtime Error
+     C. Compile Error
+  //Q13
+    public static void main(String[] args) {
+            int x =20;
+            double y = 100;
+            x=y;
+            System.out.println(x);
+        }
+    A. 100
+    B. Runtime Error
+    C. Compile Error
+   //Q14
+    public static void main(String[] args) {
+            int x =20;
+            byte y = 100;
+            x=y;
+            System.out.println(x);
+        }
+    A. 100
+    B. Runtime Error
+    C. Compile Error
+   //Q15
+   public static void main(String[] args) {
+           byte x=10;
+           int y =20;
+           long z = 30;
+           double p=x+y+z;
+           System.out.println(p);
+       }
+    A. 60
+    B. 60.0
+    C. Compile Error
+   //Q16
+   public static void main(String[] args) {
+           final double x=10;
+           int y=20;
+           x=y;
+           System.out.println(x);
+       }
+   A. Compile Error
+   B. 20
+   C. 20.0
+   //Q17
+   public static void main(String[] args) {
+           int x=10;
+           switch (x){
+               case 10:
+                   System.out.println("Done");
+               case 11:
+                   System.out.println("Done 2");
+           }
+       }
+   A. Done
+   B. Done 2
+   C. Compile Error
+   //Q18
+   public static void main(String[] args) {
+          double x=10;
+          switch (x){
+               case 10:
+                   System.out.println("Done");
+               case 11:
+                   System.out.println("Done 2");
+              }
+          }
+   A. Done
+   B. Done 2
+   C. Compile Error
+   //Q19
+   public static void main(String[] args) {
+           int x = 10;
+           int y = 20;
+           String ans = x<y ? "true":"false";
+           if(ans)System.out.println("Y is Greater");
+           else System.out.println("X is Greater");
+       }
+    A. Compile Error
+    B. Y is Greater
+    C. X is Greater
+    //Q20
+    public static void main(String[] args) {
+        int ans=0;
+        for (int i=0;i<10;i++) {
+            switch (i) {
+                case 5:
+                    break;
+            }
+            ans=ans+i;
+        }
+        System.out.println(ans);
+    }
+    A. 45
+    B. 10
+    C. Compile Error
+    //Q21
+    public static void main(String[] args) {
+            int ans=0;
+            for (int i=0;i<10;i++) {
+                switch (i) {
+                    case 5:
+                        continue;
+                }
+                ans=ans+i;
+            }
+            System.out.println(ans);
+        }
+     A. 45
+     B. 10
+     C. Compile Error
+    //Q22
+    public static void main(String[] args) {
+            int ans=0;
+            for (int i=0;i<10;i++) {
+                if (i==5) {
+                    continue;
+                }
+                ans=ans+i;
+            }
+            System.out.println(ans);
+        }
+    A. 45
+    B. 10
+    C. 15
+    //Q23
+    public static void main(String[] args) {
+        int ans=0;
+        for (int i=0;i<10;i++) {
+            if (i==5) {
+                break;
+            }
+            ans=ans+i;
+        }
+        System.out.println(ans);
+    }
+    A. 45
+    B. 10
+    C. 15
+    //Q24
+    public static void main(String[] args) {
+            int ans=0;
+            for (int i=10;i>0;i--) {
+                if(i>0){
+                    break;
+                }
+                ans=ans+i;
+            }
+            System.out.println(ans);
+        }
+    A. 45
+    B. 0
+    C. 40
+    //Q25
+    public static void main(String[] args) {
+            int ans=0;
+            for (int i=10;i>0;i--) {
+                ans=ans+i;
+                if(i>0){
+                    continue;
+                }
+            }
+            System.out.println(ans);
+        }
+    A. 45
+    B. 0
+    C. 55
