@@ -13,3 +13,5 @@
 13. What is Polymorphism ?
 14. What is Abstraction ?
 15. What is Encapsulation ?
+16. Is Java a statically or dynamically typed language?
+17. What are the differences between Heap and Stack Memory?

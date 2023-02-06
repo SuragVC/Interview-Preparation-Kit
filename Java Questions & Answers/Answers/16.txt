@@ -1,0 +1,4 @@
+Q. Is Java a statically or dynamically typed language?
+	Java is a statically typed language. This means when declaring a variable in Java we have to specify its 
+datatype upfront and in the runtime, we can't change the data type. Python, JavaScript, and Ruby are some
+examples of dynamically typed languages.

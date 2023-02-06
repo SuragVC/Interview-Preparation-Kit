@@ -1,0 +1,15 @@
+Q. What are the differences between Heap and Stack Memory?
+	Heap and Stack are two memory areas in a computer's memory used for storing data during program
+execution. The main differences between them are:
+1. Allocation: In the heap memory is dynamically allocated during runtime and can be accessed by multiple
+parts of the program, wherein the stack memory is allocated and deallocated in a last-in-first-out(LIFO)
+manner.
+2. Size: The heap is larger than the stack as it needs to store data for the entire lifetime of a program wheres
+the stack has a limited size.
+3. Accessibility: The heap is accessible globally, meaning that any part of the program can access the data
+stored in the heap, whereas the stack is only accessible to the function that has created the data.
+4. Garbage Collection: The heap memory is managed by the garbage collector, which automatically frees 
+the memory that is no longer being used, where as the stack memory will be cleaned when a function returns
+back.
+	In general, Heap is used to storing objects, large data structures, and data that needs to persist for 
+a whole program. While stack is used to store local variables and function call frames.
