@@ -109,7 +109,7 @@
     A. true
     B. false
     C. Compile Error
-  //Q12
+ //Q12
     public static void main(String[] args) {
         System.out.println(ansFunciton());
     }
@@ -119,7 +119,7 @@
      A. 10
      B. Runtime Error
      C. Compile Error
-  //Q13
+ //Q13
     public static void main(String[] args) {
             int x =20;
             double y = 100;
@@ -129,7 +129,7 @@
     A. 100
     B. Runtime Error
     C. Compile Error
-   //Q14
+  //Q14
     public static void main(String[] args) {
             int x =20;
             byte y = 100;
