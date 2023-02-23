@@ -130,7 +130,7 @@
     B. Runtime Error
     C. Compile Error
   //Q14
-    public static void main(String[] args) {
+  public static void main(String[] args) {
             int x =20;
             byte y = 100;
             x=y;
